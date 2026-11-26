@@ -1,0 +1,1 @@
+Play 24 trails across three areas, with undo, reset, and contextual hints. The trail atlas tracks completed trails and personal turn records.

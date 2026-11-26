@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DBD5C708038005AADF41E45 /* HatchwayTrailsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711A5E0614C4B490B600B545 /* HatchwayTrailsApp.swift */; };
+		37A9BEF51334BE7BB34B988F /* StoreFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D035BE0EA8D6C86FA1B60C8F /* StoreFrame.swift */; };
+		45BFB23D7D0B455B9CC4C092 /* TrailJourney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3E46EC8057970EFBA396A2 /* TrailJourney.swift */; };
+		47FF0C7F9E33E80B1CE3E258 /* Yard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848BEF1E7B038B090D15581 /* Yard.swift */; };
+		BC5B33785EE09D5BE3C5768F /* FieldTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8B4D34ED1AE4A33E9F43C7 /* FieldTile.swift */; };
+		E58D9DCD67FFE6DBE4B58E55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A093FB0D5B4E98D4316277B /* Assets.xcassets */; };
+		E595969932F69ADAC440ED34 /* Yard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848BEF1E7B038B090D15581 /* Yard.swift */; };
+		4E6BFDE0978228A158A42F80 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B48A83326781500F19EA7DD8 /* Localizable.xcstrings */; };
+		0E2226A840A3118E8A184153 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F94E17EADE700D6BE6902B38 /* InfoPlist.xcstrings */; };
+		B66ADF0080599F932BD47C59 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D055C9976B2726B3D64F71B /* Localization.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C067275796D677F00399A57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2675BF84B7C1B69F46463571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A39338883F3D39512D8133B;
+			remoteInfo = HatchwayTrails;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02319F91E71F226F19E83541 /* HatchwayTrailsUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = HatchwayTrailsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B3E46EC8057970EFBA396A2 /* TrailJourney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailJourney.swift; sourceTree = "<group>"; };
+		2A093FB0D5B4E98D4316277B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5848BEF1E7B038B090D15581 /* Yard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yard.swift; sourceTree = "<group>"; };
+		711A5E0614C4B490B600B545 /* HatchwayTrailsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HatchwayTrailsApp.swift; sourceTree = "<group>"; };
+		952ACA70073DE3DE31618B6C /* HatchwayTrails.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = HatchwayTrails.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8B4D34ED1AE4A33E9F43C7 /* FieldTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldTile.swift; sourceTree = "<group>"; };
+		D035BE0EA8D6C86FA1B60C8F /* StoreFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreFrame.swift; sourceTree = "<group>"; };
+		B48A83326781500F19EA7DD8 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		F94E17EADE700D6BE6902B38 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		7D055C9976B2726B3D64F71B /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0C57B0EDF82D124B285CC790 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				952ACA70073DE3DE31618B6C /* HatchwayTrails.app */,
+				02319F91E71F226F19E83541 /* HatchwayTrailsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A972C33CD21ECB913A9F804 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B3E46EC8057970EFBA396A2 /* TrailJourney.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		96A5B1F5D21BEFDE81E60BB3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7D055C9976B2726B3D64F71B /* Localization.swift */,
+				F94E17EADE700D6BE6902B38 /* InfoPlist.xcstrings */,
+				B48A83326781500F19EA7DD8 /* Localizable.xcstrings */,
+				2A093FB0D5B4E98D4316277B /* Assets.xcassets */,
+				AB8B4D34ED1AE4A33E9F43C7 /* FieldTile.swift */,
+				711A5E0614C4B490B600B545 /* HatchwayTrailsApp.swift */,
+				D035BE0EA8D6C86FA1B60C8F /* StoreFrame.swift */,
+				5848BEF1E7B038B090D15581 /* Yard.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		B81CF588E5A79C26D0193ECD = {
+			isa = PBXGroup;
+			children = (
+				96A5B1F5D21BEFDE81E60BB3 /* Source */,
+				8A972C33CD21ECB913A9F804 /* UITests */,
+				0C57B0EDF82D124B285CC790 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A39338883F3D39512D8133B /* HatchwayTrails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D5ED31A3B291695C281D72A /* Build configuration list for PBXNativeTarget "HatchwayTrails" */;
+			buildPhases = (
+				1781669C9F8E819B5181886E /* Sources */,
+				B13B22605DC3871AAC3B0215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HatchwayTrails;
+			packageProductDependencies = (
+			);
+			productName = HatchwayTrails;
+			productReference = 952ACA70073DE3DE31618B6C /* HatchwayTrails.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21667ACCFB7D0EAC58B312A5 /* HatchwayTrailsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4C495115533A261345AB37 /* Build configuration list for PBXNativeTarget "HatchwayTrailsUITests" */;
+			buildPhases = (
+				488DD9E782AF1731129AEB22 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92F22FC414CBEB8C4C2CBB9F /* PBXTargetDependency */,
+			);
+			name = HatchwayTrailsUITests;
+			packageProductDependencies = (
+			);
+			productName = HatchwayTrailsUITests;
+			productReference = 02319F91E71F226F19E83541 /* HatchwayTrailsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2675BF84B7C1B69F46463571 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					21667ACCFB7D0EAC58B312A5 = {
+						TestTargetID = 1A39338883F3D39512D8133B;
+					};
+				};
+			};
+			buildConfigurationList = AE6B096740C899BF36E8E16D /* Build configuration list for PBXProject "HatchwayTrails" */;
+			developmentRegion = "en-GB";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ar,
+				"zh-Hant",
+				Base,
+				"en-GB",
+			);
+			mainGroup = B81CF588E5A79C26D0193ECD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0C57B0EDF82D124B285CC790 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A39338883F3D39512D8133B /* HatchwayTrails */,
+				21667ACCFB7D0EAC58B312A5 /* HatchwayTrailsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B13B22605DC3871AAC3B0215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58D9DCD67FFE6DBE4B58E55 /* Assets.xcassets in Resources */,
+				0E2226A840A3118E8A184153 /* InfoPlist.xcstrings in Resources */,
+				4E6BFDE0978228A158A42F80 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1781669C9F8E819B5181886E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5B33785EE09D5BE3C5768F /* FieldTile.swift in Sources */,
+				1DBD5C708038005AADF41E45 /* HatchwayTrailsApp.swift in Sources */,
+				B66ADF0080599F932BD47C59 /* Localization.swift in Sources */,
+				37A9BEF51334BE7BB34B988F /* StoreFrame.swift in Sources */,
+				47FF0C7F9E33E80B1CE3E258 /* Yard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488DD9E782AF1731129AEB22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BFB23D7D0B455B9CC4C092 /* TrailJourney.swift in Sources */,
+				E595969932F69ADAC440ED34 /* Yard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92F22FC414CBEB8C4C2CBB9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A39338883F3D39512D8133B /* HatchwayTrails */;
+			targetProxy = 5C067275796D677F00399A57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10971126CB25A2085BD82D3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.hatchway.trails.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HatchwayTrails;
+			};
+			name = Release;
+		};
+		256FB47CF19E72AF5390A029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = "Chickososik";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.hatchway.trails;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26303C31EFD3170F0BA7D25F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CCFA298370E9A4D5AA9BA87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.hatchway.trails.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HatchwayTrails;
+			};
+			name = Debug;
+		};
+		65BEF59410194472249C7170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		913BDACE33540457E739B7A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = "Chickososik";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.hatchway.trails;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A4C495115533A261345AB37 /* Build configuration list for PBXNativeTarget "HatchwayTrailsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCFA298370E9A4D5AA9BA87 /* Debug */,
+				10971126CB25A2085BD82D3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9D5ED31A3B291695C281D72A /* Build configuration list for PBXNativeTarget "HatchwayTrails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256FB47CF19E72AF5390A029 /* Debug */,
+				913BDACE33540457E739B7A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AE6B096740C899BF36E8E16D /* Build configuration list for PBXProject "HatchwayTrails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26303C31EFD3170F0BA7D25F /* Debug */,
+				65BEF59410194472249C7170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2675BF84B7C1B69F46463571 /* Project object */;
+}

@@ -1,0 +1,1 @@
+Open the trail atlas and select a trail. Rotate a brass pivot and observe the chicks follow the resulting path. Try undo, reset and the contextual hint. Guide every chick to a coop, then return to the atlas to check completion and the personal turn record. Play works offline. No permissions or integrations are specified.

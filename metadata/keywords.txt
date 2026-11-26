@@ -1,0 +1,1 @@
+puzzle,chicks,paths,rotation,logic,trails,offline,coop
